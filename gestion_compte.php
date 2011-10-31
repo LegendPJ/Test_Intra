@@ -4,7 +4,7 @@
         <title>Intranet de l'IUT Informatique</title>
         <link rel="stylesheet/less" href="bootstrap.less">
         <script type="text/javascript" src="less.js"></script>
-        <link type="text/css" rel="stylesheet" href="css/themename/jquery-ui-1.8.16.custom.css" /> 
+        <link type="text/css" rel="stylesheet" href="css/start/jquery-ui-1.8.16.custom.css" /> 
         <script type="text/javascript" src="js/jquery-1.6.2.min.js"> </script>
         <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"> </script>
 
@@ -85,23 +85,9 @@ include("sidebar.php");
               <div class="clearfix">
                   <label>Date de Naissance</label>
                   <div class="input">
-                  <!-- date("d/m/Y", strtotime($ligne2->dateprog)); ou utiliser calendrier-->
-                      <input type="datetime" name="date_naiss" value="25/12/2011">
+                    <input type="text" id="datepicker">
                   </div>
               </div>
-
-
-
-
-
-
-<div class="demo">
-
-<p>Date: <input type="text" id="datepicker"></p>
-
-</div><!-- End demo -->
-
-
 
               <h4>Adresse</h4>
               
